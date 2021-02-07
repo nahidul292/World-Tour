@@ -1,0 +1,26 @@
+* {
+    margin: 10px;
+}
+#countries {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 20px;
+}
+.country{
+    border: 2px solid tomato;
+    border-radius: 20px;
+    padding: 10px;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+}
+.country-name {
+    font-size: 35px;
+    color: violet;
+}
+#countryDetail img {
+    width: 300px;
+}
+#countryDetail{
+    margin:20px ;
+}
